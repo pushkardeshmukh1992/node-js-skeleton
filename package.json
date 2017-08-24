@@ -26,6 +26,6 @@
   "scripts": {
     "postinstall": "grunt test",
     "test": "grunt test",
-    "start": "app.js"
+    "start": "node app.js"
   }
 }
