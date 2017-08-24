@@ -15,7 +15,7 @@ var login = (config.user.length > 0) ? config.user + ":" + config.pw + "@" : '';
 // var uristring =  process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||  "mongodb://" + login + config.host + port + "/" + config.db;
 var uristring = 'mongodb://sushantj:2485001s@ds153853.mlab.com:53853';
 
-var mongoOptions = { db: { safe: true } };
+var mongoOptions = { useMongoClient: true, db: { safe: true } };
 
 // Connect to Database
 mongoose.connect(uristring, mongoOptions, function (err, res) {
