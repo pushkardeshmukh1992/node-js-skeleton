@@ -1,16 +1,16 @@
 {
-  "name": "mongoose",
+  "name": "mongoose-test",
   "description": "mongoose app description here",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "ejs": "latest",
-    "express": "latest",
-    "mongoose": "latest",
-    "morgan": "latest",
-    "method-override": "latest",
     "body-parser": "latest",
-    "errorhandler": "latest"
+    "ejs": "latest",
+    "errorhandler": "latest",
+    "express": "latest",
+    "method-override": "latest",
+    "mongoose": "^4.8.7",
+    "morgan": "latest"
   },
   "devDependencies": {
     "grunt": "latest",
