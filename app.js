@@ -23,6 +23,7 @@ fs.readdirSync(modelsPath).forEach(function (file) {
   require(modelsPath + '/' + file);
 });
 
+
 var env = process.env.NODE_ENV || 'development';
 
 if ('development' == env) {
