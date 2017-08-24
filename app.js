@@ -17,7 +17,6 @@ app.locals.siteName = "Mongoose";
 var db = require('./config/db');
 app.use(express.static(__dirname + '/public'));
 
-
 // Bootstrap models
 var modelsPath = path.join(__dirname, 'models');
 fs.readdirSync(modelsPath).forEach(function (file) {
